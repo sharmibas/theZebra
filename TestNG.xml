@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Some">
+
+<parameter name="browserType" value="Chrome" />
+  <test name="ZebraTest">
+    <classes>
+      <class name="com.tests.SmokeTest"/>
+    </classes>
+  </test> 
+  
+</suite> 

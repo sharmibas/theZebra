@@ -1,0 +1,48 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.zebra</groupId>
+  <artifactId>testing</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Smoke Testing</name>
+  <description>Assessment</description>
+  
+  
+  <properties>
+  <selenium.version>2.53.1</selenium.version>
+  <testng.version>6.14.3</testng.version>
+ </properties>
+
+ <dependencies>
+  <dependency>
+   <groupId>org.seleniumhq.selenium</groupId>
+   <artifactId>selenium-java</artifactId>
+   <version>${selenium.version}</version>
+  </dependency>
+  
+  <dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+     <artifactId>selenium-firefox-driver</artifactId>
+      <version>${selenium.version}</version>
+   </dependency>
+
+   <dependency>
+     <groupId>org.seleniumhq.selenium</groupId>
+     <artifactId>selenium-support</artifactId>
+     <version>${selenium.version}</version>
+   </dependency>
+   
+  <dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>3.8-beta4</version>
+</dependency>
+  
+  <dependency>
+   <groupId>org.testng</groupId>
+   <artifactId>testng</artifactId>
+   <version>${testng.version}</version>
+   <scope>test</scope>
+  </dependency>
+ </dependencies>
+  
+</project>

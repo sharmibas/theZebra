@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Some]" guice-stage="DEVELOPMENT">
+  <parameter name="browserType" value="Chrome"/>
+  <test thread-count="5" name="ZebraTest(failed)">
+    <classes>
+      <class name="com.tests.SmokeTest">
+        <methods>
+          <include name="getInsuranceQuote"/>
+          <include name="verifyTextOnHomePage"/>
+          <include name="verifyElementsOnHomePage"/>
+          <include name="initiateDriver"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.tests.SmokeTest -->
+    </classes>
+  </test> <!-- ZebraTest(failed) -->
+</suite> <!-- Failed suite [Some] -->
