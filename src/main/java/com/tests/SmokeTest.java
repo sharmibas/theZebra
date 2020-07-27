@@ -70,7 +70,7 @@ public class SmokeTest {
 	  
   }
 	
-  @Test(enabled=false)
+  @Test(priority=0)
   public void verifyElementsOnHomePage() {
 	  
 	  homepage.waitForPagetoLoad();
@@ -87,7 +87,7 @@ public class SmokeTest {
 	  
   }
   
-  @Test(enabled=false)
+  @Test(priority=1)
   public void verifyTextOnHomePage() {
 	  
 	  homepage.waitForPagetoLoad();
@@ -100,7 +100,7 @@ public class SmokeTest {
 	  
   }
   
-  @Test(enabled=true)
+  @Test(priority=2)
   public void getInsuranceQuote() throws InterruptedException {
 	  
 	  homepage.waitForPagetoLoad();
